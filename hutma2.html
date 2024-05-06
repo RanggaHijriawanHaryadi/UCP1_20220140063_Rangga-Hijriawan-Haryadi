@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+
+<br>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pendaftaranDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Favorite
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="pendaftaranDropdown">
+                            <a class="dropdown-item" href="hutma1.html">Kesukaan</a>
+                            <a class="dropdown-item" href="hutma2.html">Time</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="jadwalDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kegiatan
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="jadwalDropdown">
+                            <a class="dropdown-item" href="hobby.html">Biasa dilakukan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">A Day In My Life</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <div class="content">
+      
+      <h3 class="text-center" style="color: white;">Waktu Sekarang Menunjukkan jam : <span id="clock"></span></h3>
+      <div id="grading" style="font-size: 18px; color: rgb(14, 240, 63);"></div>
+      <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators" style="display: none;">
+              <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+          </ol>
+  
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeH7paZp-lKC5X2Xn_TsVfGNsGQxa1lH6Xw&s.jpg" class="d-block w-100" alt="New York">
+                  <div class="carousel-caption d-none d-md-block">
+                      
+                  </div>
+              </div>
+  
+              <div class="carousel-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCQ1Q8--m8zeJeoHBCWAseyRRVyk-K-tUww&s.jpg" class="d-block w-100" alt="Chicago">
+                  <div class="carousel-caption d-none d-md-block">
+                      
+                  </div>
+              </div>
+  
+              <div class="carousel-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuNlb9W4HpVQhlKrVsK3AAUYQdur9RH7Y6ow&s.jpg" class="d-block w-100" alt="Los Angeles">
+                  <div class="carousel-caption d-none d-md-block">
+                      
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Left and right controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+  
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center py-4">
+                        <h2>Pengembangan Desain Web - 2024 - Kelas B</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-center py-3">
+                        <a href="https://www.instagram.com/akun_instagram"><i class="fab fa-instagram" style="font-size: 50px; margin-right: 30px;"></i></a>  
+                        <a href="https://www.linkedin.com/in/akun_linkedin"><i class="fab fa-linkedin" style="font-size: 50px; margin-right: 30px;"></i></a>  
+                        <a href="https://github.com/akun_github"><i class="fab fa-github" style="font-size: 50px; margin-right: 30px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

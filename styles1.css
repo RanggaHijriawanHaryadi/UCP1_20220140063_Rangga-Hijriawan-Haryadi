@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Mengatur tinggi konten menjadi setengah layar */
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em; /* Mengatur ukuran huruf */
+    color:lavenderblush;
+}
+
+.button {
+    margin-top: 100px; /* Menambah jarak atas */
+}
+
+button {
+    font-size: 1.5em; /* Mengatur ukuran tombol */
+    padding: 10px 20px; /* Menambah padding tombol */
+}

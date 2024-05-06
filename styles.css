@@ -1,0 +1,158 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+}   
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+h2 {
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.button button {
+    font-size: 20px; /* Atur ukuran font tulisan HAII */
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid;
+    border: none;
+    padding: 15px 35px; 
+    text-shadow: 5px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px; /* Atur tinggi konten */
+}
+body {
+    background-color: rgb(62, 121, 155); /* Warna latar belakang seluruh area konten */
+}
+
+/*dropdown*/
+.navbar-nav .nav-link {
+    font-size: 26px; /* Atur ukuran font */
+    font-family: Arial, Helvetica, sans-serif;
+    color:silver; 
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 35px; /* Ukuran teks */
+    color: gold; /* Warna teks */
+}
+.dropdown-menu  {
+    background-color: rgb(1, 14, 12);
+    padding: 0; /* Atur padding ke nol */
+    margin: 0; /* Atur margin ke nol */
+    overflow: visible; /* Atur overflow ke visible */
+    z-index: 1000;
+    position: fixed;/* Warna latar belakang dropdown */
+}
+.dropdown-item {
+    font-size: 25px; /* Ukuran font untuk item dropdown */
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+}
+/*pendaftaran2*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Optionally set a height to center vertically */
+}
+
+.clock {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Wrapper for slides */
+.carousel-item img {
+    max-height: 500px;
+    max-width: 500px;
+    display: block;
+    margin: auto; /* Membuat gambar berada di tengah secara horizontal */
+    height: 800px; /* Tinggi gambar */
+}
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  
+  .carousel-container{
+    width: 120%;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+/*hobby*/
+.container2 {
+    padding: 80px 120px;
+  }
+
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .person {
+    border: 3px solid black; /* Mengatur border warna hitam dengan ketebalan 10px */
+    margin-bottom: 25px;
+    width: 300px; /* Lebar border sesuai dengan lebar foto */
+    height: 300px; /* Tinggi border sesuai dengan tinggi foto */
+    opacity: 0.7;
+    display: flex; /* Menggunakan flexbox untuk mengatur posisi vertikal */
+    flex-direction: column; /* Mengatur arah tata letak ke vertikal */
+    justify-content: center; /* Menyatukan konten secara vertikal di tengah */
+    border-radius: 150px; /* Membuat border bulat dengan radius setengah dari lebar/tinggi */
+}
+
+.footer {
+    padding: 20px; /* Atur warna latar belakang footer */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+.footer h5 {
+    margin-top: 20px; /* Atur jarak atas untuk h5 */
+    margin-bottom: 20px; /* Atur jarak bawah untuk h5 */
+}
+.footer ul {
+    display: flex; /* Menggunakan flexbox untuk mengatur tata letak */
+    justify-content: center; /* Menyatukan item ke tengah */
+    list-style-type: none; /* Menghilangkan bullets pada daftar */
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 0 10px; /* Atur jarak antara item */
+}
+
+.footer video {
+    order: -1; /* Mengubah urutan item menjadi sebelum audio */
+}
+
+  
+ 
